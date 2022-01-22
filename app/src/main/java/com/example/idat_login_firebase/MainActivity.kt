@@ -22,22 +22,24 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var mAuth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
-    val user = mAuth.currentUser
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        mAuth = FirebaseAuth.getInstance()
+        val user = mAuth.currentUser
 
-        /**If user is not authenticated, send him to SignInActivity to authenticate first.
-         * Else send him to DashboardActivity*/
+        //Si el usuario no está autenticado, envíelo a MainActivity para que se autentique primero.
+         //"Else" valla al dashboard
         Handler().postDelayed({
             if (user != null) {
-                val dashboardIntent = Intent(this, MainActivity::class.java)
+                val dashboardIntent = Intent(this, Dashboard::class.java)
                 startActivity(dashboardIntent)
                 finish()
             } else {
-                val signInIntent = Intent(this, Dashboard::class.java)
+                val signInIntent = Intent(this, MainActivity::class.java)
                 startActivity(signInIntent)
                 finish()
             }

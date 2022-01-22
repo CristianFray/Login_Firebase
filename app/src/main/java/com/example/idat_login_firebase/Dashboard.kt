@@ -17,9 +17,10 @@ class Dashboard : AppCompatActivity() {
         mAuth = FirebaseAuth.getInstance()
         val currentUser = mAuth.currentUser
 
-        name_txt.text = currentUser?.displayName
-        email_txt.text = currentUser?.email
+        TxtNombre.text = currentUser?.displayName
+        TxtEmail.text = currentUser?.email
 
+        //obtener imagen del usuario logeado
         Glide.with(this).load(currentUser?.photoUrl).into(imgPerfil)
 
         BtnCerrarSesion.setOnClickListener {
