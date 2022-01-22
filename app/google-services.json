@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "567915575161",
+    "firebase_url": "https://formulariologin-26906-default-rtdb.firebaseio.com",
+    "project_id": "formulariologin-26906",
+    "storage_bucket": "formulariologin-26906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567915575161:android:de785635fdaec3ac8661a8",
+        "android_client_info": {
+          "package_name": "com.example.formulariologin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567915575161-sk8hmjdstihjfv51gaa5njnedcm8ps5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz9F5fX2YDn1lEdzFY1OG_Vf-K3PAhxmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567915575161-sk8hmjdstihjfv51gaa5njnedcm8ps5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567915575161:android:26af5d6a482858598661a8",
+        "android_client_info": {
+          "package_name": "com.example.idat_login_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567915575161-sk8hmjdstihjfv51gaa5njnedcm8ps5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz9F5fX2YDn1lEdzFY1OG_Vf-K3PAhxmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567915575161-sk8hmjdstihjfv51gaa5njnedcm8ps5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
