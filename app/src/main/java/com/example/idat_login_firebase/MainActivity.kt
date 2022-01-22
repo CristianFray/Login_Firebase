@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         //Instancia de autenticación de Firebase
         mAuth = FirebaseAuth.getInstance()
 
-        sign_in_btn.setOnClickListener {
+        Btnlogin.setOnClickListener {
             signIn()
         }
     }
